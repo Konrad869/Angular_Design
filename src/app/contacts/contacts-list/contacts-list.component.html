@@ -1,0 +1,41 @@
+<app-header>
+    <span content>Lista wszystkich kontaktów</span>
+</app-header>
+<table *ngIf="contacts.length > 0; else noContactsAlert" class="table table-striped">
+
+    <thead>
+        <tr>
+            <th>Lp.</th>
+            <th>Nazwisko</th>
+            <th>Imię</th>
+            <th>Nr telefonu</th>
+            <th>Opcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let contact of contacts; let i = index">
+            <td>{{i + 1}}</td>
+            <td>{{contact.surname}}</td>
+            <td>{{contact.firstName}}</td>
+            <td>{{contact.phoneNumber}}</td>
+            <td>
+                <!-- <button type="button" class="btn btn-danger">Danger</button> -->
+                <button (click)="delContact(contact.id)" mat-mini-fab color="warn">
+                    <mat-icon>delete</mat-icon>
+                </button>
+                <button [routerLink]="['/contact-add', contact.id]" mat-mini-fab color="accent">
+                    <mat-icon>edit</mat-icon>
+                </button>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+
+<button [routerLink]="['/contact-add']" mat-fab color="primary" matTooltip="Dodaj nowy kontakt">
+    <mat-icon>add</mat-icon>
+</button>
+
+<ng-template #noContactsAlert>
+    <p class="no-contacts">W tym momencie brak danych...</p>
+</ng-template>
