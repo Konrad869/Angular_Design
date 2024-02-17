@@ -1,4 +1,4 @@
-The Angular_Design application is an Angular application that adds users to the database. The application is unfinished but I am working on completing it. The application is built using Angular v16, Typescript, Rxjs, SPA, Angular material technologies. To run it, download the ZIP files and open them in the IDE in the src directory. you need to install ng_modules using npm install and then issue the command ng s -o or npm start or ng serve  to run it.
+The Angular_Design application is an Angular application that adds users to the database. The application is unfinished but I am working on completing it. The application is built using mainly Angular v16, Typescript, Rxjs, SPA, Angular material technologies. To run it, download the ZIP files and open them in the IDE in the src directory. you need to install ng_modules using npm install and then issue the command ng s -o or npm start or ng serve  to run it.
 
 
 
