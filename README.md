@@ -5,7 +5,7 @@ The Angular_Design application is an Angular application that adds users to the 
 Tech
 
 
-JobOffers is developed using following technologies:
+Angular_Design is developed using following technologies:
 
 
 
