@@ -24,7 +24,7 @@ Installation Devices
 ```bash
 Download the zip file or use the git clone command and run it in your IDE
 ng s -o 
-# Lub 
+# or
 npm start 
 ```
 
