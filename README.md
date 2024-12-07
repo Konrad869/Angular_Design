@@ -13,7 +13,7 @@ Angular_Design is developed using following technologies:
 
 
 
-Installation devices
+Installation Devices
 
 ## System requirements
 - Node.js (wersja 16+ recommended)
@@ -23,8 +23,6 @@ Installation devices
 ## Launching the application
 ```bash
 ng s -o 
-
-
 # Lub 
 npm start 
 ```
@@ -32,7 +30,6 @@ npm start
 ## Example usage
 ```bash
 then you need to copy the https/4200 address to the web browser to see the applications.
-
 
 ## Troubleshooting
 - Make sure you have Node.js installed
