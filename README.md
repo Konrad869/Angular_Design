@@ -20,7 +20,7 @@ Angular_Design is developed using following technologies:
 - [Installation](#-installation)
 - [Configuration](#-configuration)
 - [Usage](#-use)
-- [Functionalities](#-Functionalities)
+- [Functionalities](#-https://github.com/Konrad869/Angular_Design?tab=readme-ov-file#functionalities)
 - [Requirements](#-Requirements)
 - [Problem Solving](#-ProblemSolving)
 - [Requirements](#-Requirements)
