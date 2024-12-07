@@ -13,94 +13,61 @@ Angular_Design is developed using following technologies:
 
 
 
-# Article HTML Converter 🚀
+# Angular_Design 🚀
 
-## 📋 Spis Treści
-- [Opis Projektu](#-opis-projektu)
-- [Instalacja](#-instalacja)
-- [Konfiguracja](#-konfiguracja)
-- [Użycie](#-użycie)
-- [Funkcjonalności](#-funkcjonalności)
-- [Wymagania](#-wymagania)
-- [Rozwiązywanie Problemów](#-rozwiązywanie-problemów)
+## 📋 Contents
+- [Project Description](#-project-description)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Usage](#-use)
+- [Functionalities](#-functionalities)
+- [Requirements](#-requirements)
+- [Troubleshooting](#-troubleshooting)
 
-## 🔍 Opis Projektu
+## 🔍 Project Description
+The Angular_Design application is an Angular application that adds users to the database or removes them.
 
-Narzędzie **Article HTML Converter** automatyzuje konwersję dokumentów tekstowych do semantycznego, dostępnego formatu HTML5 z wykorzystaniem zaawansowanych modeli AI.
+## 💻Installation
 
-## 💻 Instalacja
-
-### Wymagania wstępne
+### Prerequisites
 - Node.js (v16+)
-- npm
+- above sea level
 
-### Kroki instalacji
+### Installation steps
 ```bash
-# Klonowanie repozytorium
-git clone https://github.com/twoj-uzytkownik/article-converter.git
+# Cloning the repository
 
-# Przejście do katalogu projektu
-cd article-converter
+# Go to the source project directory
+cd src
 
-# Instalacja zależności
+# Installing dependencies
 npm install
 ```
 
-## 🛠 Konfiguracja
+## 🚀 Use
 
-### Zmienne środowiskowe
-Utwórz plik `.env` w katalogu głównym:
+### Basic startup
+https/4200 to your web browser to see the applications.
 
-```
-OPENAI_API_KEY=twoj_klucz_api
-```
 
-### Parametry konfiguracyjne
-```javascript
-const CONFIG = {
-  MAX_FILE_SIZE: 50 * 1024,     // Maks. rozmiar pliku
-  MODEL: 'gpt-4-turbo-preview', // Model AI
-  MAX_TOKENS: 1500,             // Limit tokenów
-}
-```
+## ✨Functionalities
+- Adding users to the database
+- Removing users from the database
 
-## 🚀 Użycie
 
-### Podstawowe uruchomienie
-```bash
-node converter.js /sciezka/do/pliku.txt
-```
+## ⚠️ Requirements
+- Node.js installed 
+- Stable internet connection
 
-### Przykładowe scenariusze
-- Konwersja artykułów
-- Przetwarzanie dokumentów akademickich
-- Automatyzacja publikacji treści
+## 🐞 Problem Solving
 
-## ✨ Funkcjonalności
-- Generowanie semantycznego HTML5
-- Automatyczna strukturyzacja dokumentu
-- Hierarchizacja nagłówków
-- Wielojęzyczne przetwarzanie tekstu
+### The most common problems
+1. - Check Node.js versions
+   - Check your internet connection
 
-## ⚠️ Wymagania
-- Klucz API OpenAI
-- Plik tekstowy do konwersji
-- Stabilne połączenie internetowe
-
-## 🐞 Rozwiązywanie Problemów
-
-### Najczęstsze problemy
-1. **Brak klucza API**
-   - Sprawdź konfigurację `.env`
-   - Wygeneruj nowy klucz w OpenAI
-
-2. **Błędy konwersji**
-   - Upewnij się, że plik jest czytelny
-   - Sprawdź limity rozmiaru pliku
-
-## 📄 Licencja
+## 📄 License
 MIT License
 
-## 🤝 Kontakt
-[Twój email lub link do repozytorium]
-
+## 🤝 contact
+phone number - + 48 731 067 866
+email address - konradgo23@gmail.com
