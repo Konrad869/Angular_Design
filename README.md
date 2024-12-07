@@ -21,6 +21,13 @@ Angular_Design is developed using following technologies:
 - [Configuration](#-configuration)
 - [Usage](#-use)
 - [Functionalities](#-Functionalities)
+- [Requirements](#-Requirements)
+- [Problem Solving](#-ProblemSolving)
+- [Requirements](#-Requirements)
+- [License](#-License)
+- [Contact](#-Contact)
+
+                
 
 ## 🔍 Project Description
 The Angular_Design application is an Angular application that adds users to the database or removes them.
@@ -34,6 +41,7 @@ The Angular_Design application is an Angular application that adds users to the 
 ### Installation steps
 ```bash
 # Cloning the repository
+
 
 # Go to the source project directory
 cd src
@@ -66,6 +74,6 @@ https/4200 to your web browser to see the applications.
 ## 📄 License
 MIT License
 
-## 🤝 contact
+## 🤝 Contact
 phone number - + 48 731 067 866
 email address - konradgo23@gmail.com
