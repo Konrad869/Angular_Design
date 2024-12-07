@@ -20,9 +20,7 @@ Angular_Design is developed using following technologies:
 - [Installation](#-installation)
 - [Configuration](#-configuration)
 - [Usage](#-use)
-- [Functionalities](#-functionalities)
-- [Requirements](#-requirements)
-- [Troubleshooting](#-troubleshooting)
+- [Functionalities](#-Functionalities)
 
 ## 🔍 Project Description
 The Angular_Design application is an Angular application that adds users to the database or removes them.
