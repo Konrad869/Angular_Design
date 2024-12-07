@@ -40,7 +40,7 @@ The Angular_Design application is an Angular application that adds users to the 
 ### Installation steps
 ```bash
 # Cloning the repository
-
+https://github.com/Konrad869/Angular_Design.git
 
 # Go to the source project directory
 cd src
