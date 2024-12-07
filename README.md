@@ -13,25 +13,94 @@ Angular_Design is developed using following technologies:
 
 
 
-Installation Devices
+# Article HTML Converter 🚀
 
-## System requirements
-- Node.js (wersja 16+ recommended)
-- npm (Node Package Manager)
+## 📋 Spis Treści
+- [Opis Projektu](#-opis-projektu)
+- [Instalacja](#-instalacja)
+- [Konfiguracja](#-konfiguracja)
+- [Użycie](#-użycie)
+- [Funkcjonalności](#-funkcjonalności)
+- [Wymagania](#-wymagania)
+- [Rozwiązywanie Problemów](#-rozwiązywanie-problemów)
 
+## 🔍 Opis Projektu
 
-## Launching the application
+Narzędzie **Article HTML Converter** automatyzuje konwersję dokumentów tekstowych do semantycznego, dostępnego formatu HTML5 z wykorzystaniem zaawansowanych modeli AI.
+
+## 💻 Instalacja
+
+### Wymagania wstępne
+- Node.js (v16+)
+- npm
+
+### Kroki instalacji
 ```bash
-Download the zip file or use the git clone command and run it in your IDE
-ng s -o 
-# or
-npm start 
+# Klonowanie repozytorium
+git clone https://github.com/twoj-uzytkownik/article-converter.git
+
+# Przejście do katalogu projektu
+cd article-converter
+
+# Instalacja zależności
+npm install
 ```
 
-## Example usage
-```bash
-then you need to copy the https/4200 address to the web browser to see the applications.
+## 🛠 Konfiguracja
 
-## Troubleshooting
-- Make sure you have Node.js installed
+### Zmienne środowiskowe
+Utwórz plik `.env` w katalogu głównym:
+
+```
+OPENAI_API_KEY=twoj_klucz_api
+```
+
+### Parametry konfiguracyjne
+```javascript
+const CONFIG = {
+  MAX_FILE_SIZE: 50 * 1024,     // Maks. rozmiar pliku
+  MODEL: 'gpt-4-turbo-preview', // Model AI
+  MAX_TOKENS: 1500,             // Limit tokenów
+}
+```
+
+## 🚀 Użycie
+
+### Podstawowe uruchomienie
+```bash
+node converter.js /sciezka/do/pliku.txt
+```
+
+### Przykładowe scenariusze
+- Konwersja artykułów
+- Przetwarzanie dokumentów akademickich
+- Automatyzacja publikacji treści
+
+## ✨ Funkcjonalności
+- Generowanie semantycznego HTML5
+- Automatyczna strukturyzacja dokumentu
+- Hierarchizacja nagłówków
+- Wielojęzyczne przetwarzanie tekstu
+
+## ⚠️ Wymagania
+- Klucz API OpenAI
+- Plik tekstowy do konwersji
+- Stabilne połączenie internetowe
+
+## 🐞 Rozwiązywanie Problemów
+
+### Najczęstsze problemy
+1. **Brak klucza API**
+   - Sprawdź konfigurację `.env`
+   - Wygeneruj nowy klucz w OpenAI
+
+2. **Błędy konwersji**
+   - Upewnij się, że plik jest czytelny
+   - Sprawdź limity rozmiaru pliku
+
+## 📄 Licencja
+MIT License
+
+## 🤝 Kontakt
+[Twój email lub link do repozytorium]
 
