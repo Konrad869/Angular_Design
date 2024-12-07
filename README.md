@@ -24,7 +24,6 @@ Angular_Design is developed using following technologies:
 - [Requirements](#-Requirements)
 - [Problem Solving](#-ProblemSolving)
 - [Requirements](#-Requirements)
-- [License](#-License)
 - [Contact](#-Contact)
 
                 
@@ -71,9 +70,7 @@ https/4200 to your web browser to see the applications.
 1. - Check Node.js versions
    - Check your internet connection
 
-## 📄 License
-MIT License
-
 ## 🤝 Contact
 phone number - + 48 731 067 866
+
 email address - konradgo23@gmail.com
