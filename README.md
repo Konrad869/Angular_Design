@@ -13,56 +13,27 @@ Angular_Design is developed using following technologies:
 
 
 
+Installation devices
 
-# Article HTML Converter
-
-## Wymagania systemowe
+## System requirements
 - Node.js (wersja 16+ recommended)
 - npm (Node Package Manager)
 
-## Instalacja zależności
+
+## Launching the application
 ```bash
-# Klonowanie repozytorium
-git clone [adres-repozytorium]
-cd article-html-converter
+ng s -o 
 
-# Instalacja zależności
-npm install dotenv openai readline
+
+# Lub 
+npm start 
 ```
 
-## Konfiguracja API
-1. Utwórz plik `.env` w głównym katalogu projektu
-2. Dodaj klucz API OpenAI:
-```
-OPENAI_API_KEY=twój_klucz_api_z_openai
-```
-
-## Jak uzyskać klucz API
-1. Zarejestruj się na stronie [platform.openai.com](https://platform.openai.com/)
-2. Przejdź do sekcji API Keys
-3. Wygeneruj nowy klucz
-4. Skopiuj klucz do pliku `.env`
-
-## Uruchomienie aplikacji
+## Example usage
 ```bash
-# Uruchomienie skryptu
-node index.js
+then you need to copy the https/4200 address to the web browser to see the applications.
 
-# Lub z npx
-npx article-converter
-```
 
-## Przykładowe użycie
-```bash
-# Po uruchomieniu, podaj ścieżkę do pliku tekstowego
-Podaj ścieżkę do artykułu: /sciezka/do/twojego/artykulu.txt
-```
+## Troubleshooting
+- Make sure you have Node.js installed
 
-## Rozwiązywanie problemów
-- Upewnij się, że masz zainstalowany Node.js
-- Sprawdź poprawność klucza API
-- Potwierdź, że plik `.env` istnieje
-
-## Uwagi bezpieczeństwa
-- Nie udostępniaj publicznie klucza API
-- Dodaj `.env` do `.gitignore`
