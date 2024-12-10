@@ -47,7 +47,10 @@ cd src
 
 # Installing dependencies
 npm install
-```
+
+# activation
+   ng serve
+``` 
 
 ## 🚀 Use
 
