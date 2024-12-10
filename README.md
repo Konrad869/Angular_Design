@@ -49,7 +49,7 @@ cd src
 npm install
 
 # activation
-   ng serve
+ng serve
 ``` 
 
 ## 🚀 Use
