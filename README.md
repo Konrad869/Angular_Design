@@ -70,7 +70,7 @@ https/4200 to your web browser to see the applications.
 ## 🐞 Problem Solving
 
 ### The most common problems
-1. - Check Node.js versions
+   - Check Node.js versions
    - Check your internet connection
 
 ## 🤝 Contact
